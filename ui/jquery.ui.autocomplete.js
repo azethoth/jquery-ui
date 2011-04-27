@@ -337,8 +337,8 @@ $.widget( "ui.autocomplete", {
 		if ( this.menu.element.is(":visible") ) {
 			this.menu.element.hide();
 			this.menu.blur();
-			this._trigger( "close", event );
 		}
+	  this._trigger( "close", event );
 	},
 	
 	_change: function( event ) {
